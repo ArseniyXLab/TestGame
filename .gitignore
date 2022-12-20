@@ -1,8 +1,9 @@
 ﻿Library
-Logs
-TestJobProject.sln
 obj
+Temp
+Logs
 UserSettings
+*.csproj
+*.sln
+.vs
 .vsconfig
-Assembly-CSharp.csproj
-TestGameBuild.sln
