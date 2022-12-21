@@ -16,8 +16,7 @@ public class Player : MonoBehaviour
 	private void Update()
 	{
 		var angels = m_tool.localEulerAngles;
-		// m_timer += Time.deltaTime;
-		// var x = Mathf.Cos(Mathf.PI * m_timer * speed) * range;
+		
 		var target = range * (m_isDown ? -1f : 1f);
 		var x = Mathf.MoveTowardsAngle(angels.x, target, speed * Time.deltaTime);
 		angels.x = x;
